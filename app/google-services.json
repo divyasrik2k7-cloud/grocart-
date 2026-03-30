@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1031704126374",
+    "project_id": "grocart-a0cab",
+    "storage_bucket": "grocart-a0cab.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031704126374:android:32f4e4afe52ead12b6e567",
+        "android_client_info": {
+          "package_name": "com.example.grocart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVBDpNy4RoeMfCC2YGX6myAQ3Y_qYwFlY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

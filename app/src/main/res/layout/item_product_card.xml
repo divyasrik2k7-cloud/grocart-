@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/card_style"
+    android:elevation="6dp">
+
+    <!-- PRODUCT IMAGE -->
+    <ImageView
+        android:id="@+id/productImage"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:background="#F5F5F5"/>
+
+    <!-- NAME -->
+    <TextView
+        android:id="@+id/productName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apple"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:paddingTop="4dp"/>
+
+    <!-- PRICE -->
+    <TextView
+        android:id="@+id/productPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="₹50"
+        android:textColor="#388E3C"
+        android:textStyle="bold"/>
+
+    <!-- ADD BUTTON -->
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Add"
+        android:textSize="12sp"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
